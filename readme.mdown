@@ -23,7 +23,7 @@ foreach($cal->year(2001)->months()->nth(5)->weeks() as $week) {
 }
 
 
-echo $cal->date('01.08.2009')->minus('2years')->plus('38days)->month()->shortname();
+echo $cal->date('01.08.2009')->minus('2years')->plus('38days')->month()->shortname();
 
 
 foreach($cal->day(2012, 07, 10)->hours() as $hour) {
